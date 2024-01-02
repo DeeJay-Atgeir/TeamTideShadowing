@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+    - name: student_source
+      description: This is a replica of the snowflake database used by our app
+      database: DBT
+      schema: DBT_DJOSHI
+      tables:
+          - name: student
+            description: One record per student.
